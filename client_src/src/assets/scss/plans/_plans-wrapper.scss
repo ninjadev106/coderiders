@@ -1,0 +1,33 @@
+.plans-wrapper {
+    padding-top: 87px;
+    padding-bottom: 115px;
+    height: max-content;
+}
+
+.prompt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    .right-content-wrapper {
+        display: flex;
+        align-items: center;
+        p {
+            margin: 0;
+        }
+    }
+    &__back-button {
+        width: 170px;
+        height: 52px;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 3px solid rgba(186, 194, 209, 0.2);
+        border-radius: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+}

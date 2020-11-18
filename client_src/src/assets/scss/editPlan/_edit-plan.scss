@@ -1,0 +1,42 @@
+.edit-plan {
+    padding: 100px 0;
+    .custom-btn {
+
+    }
+    .yellow-link {
+        font: normal normal normal 18px/24px Roboto;
+        color: #efb60f;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .info-text {
+        text-align: left;
+        font: normal normal normal 20px/24px Roboto;
+        letter-spacing: 0;
+        color: #010415;
+        opacity: 0.48;
+    }
+    .plan-title {
+        font: normal normal bold 29px/38px Roboto;
+        letter-spacing: 0;
+        color: #1d2025;
+        opacity: 1;
+        margin-right: 20px;
+    }
+    .benefits-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 280px;
+        justify-content: space-between;
+    }
+    .benefits-item {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .edit-plan__bottom-text {
+        padding-left: 0;
+    }
+}

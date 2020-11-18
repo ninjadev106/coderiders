@@ -1,0 +1,68 @@
+.plan-items {
+    padding-top: 84px;
+    padding-bottom: 35px;
+}
+.plans-item {
+    height: 100%;
+    margin: auto;
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #0000000f;
+    border-radius: 8px;
+    &-check {
+        position: absolute;
+        transform: translate(-160%, -50%);
+        max-height: 60px!important;
+        min-height: 60px!important;
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+        padding-bottom: 47px;
+        .plan-benefits-wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+        .benefits-item {
+            display: flex;
+            align-items: center;
+            height: 55px;
+            img {
+                width: 26px;
+                height: 26px;
+                margin-right: 20px;
+                margin-bottom: 10px;
+            }
+        }
+        img {
+            min-height: 175px;
+            max-height: 175px;
+        }
+        &__title {
+            font: normal normal bold 29px/38px Roboto;
+            color: #1d2025;
+            margin-bottom: 8px;
+        }
+        &__description {
+            font: normal normal normal 14px/19px Roboto;
+            color: #1d2025;
+            margin-bottom: 18px;
+        }
+        &__price {
+            font: normal normal bold 40px/53px Roboto;
+            margin-bottom: 14px;
+            &_small {
+                font: normal normal bold 25px/53px Roboto;
+            }
+        }
+        &__shipping {
+            font: normal normal normal 18px/24px Roboto;
+            color: #efb60f;
+            margin-bottom: 50px;
+        }
+    }
+}

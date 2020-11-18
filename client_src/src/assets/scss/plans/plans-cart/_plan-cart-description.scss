@@ -1,0 +1,14 @@
+.plan-cart-description {
+  display: flex;
+  background: rgba(29, 32, 37, 0.02) 0% 0% no-repeat padding-box;
+  padding: 36px 40px 20px 42px ;
+  &__title {
+    font: normal normal bold 29px/38px Roboto;
+  }
+  &__price {
+    font: normal normal bold 29px/38px Roboto;
+  }
+  &__benefits {
+    max-width: 500px;
+  }
+}

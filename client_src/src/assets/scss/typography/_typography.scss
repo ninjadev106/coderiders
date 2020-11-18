@@ -1,0 +1,27 @@
+.white-space-nowrap {
+  white-space: nowrap;
+}
+.font {
+  &__title {
+    font: normal normal bold 22px/29px Roboto;
+    color: #1D2025;
+  }
+  &__description {
+    font: normal normal normal 20px/24px Roboto;
+    color: #010415;
+  }
+  &__small-description {
+    font: normal normal normal 14px/17px Roboto;
+    color: #010415;
+    opacity: 0.26;
+  }
+  &__price {
+    font: normal normal bold 40px/53px Roboto;
+    color: #1D2025;
+    &_small {
+      font: normal normal bold 25px/53px Roboto;
+      letter-spacing: 0;
+      color: #1D2025;
+    }
+  }
+}

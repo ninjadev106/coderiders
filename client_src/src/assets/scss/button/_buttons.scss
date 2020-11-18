@@ -1,0 +1,35 @@
+.custom-btn.v-btn--outlined {
+  border: 3px solid rgba(73%, 76%, 82%, 0.2);;
+  border-radius: 33px;
+  & span {
+    //font: normal normal bold 20px/26px Roboto;
+  }
+}
+.counter-btn {
+  &.v-btn{
+    border-radius:0;
+  }
+  span {
+    margin: auto;
+    font: normal normal bold 20px/26px Roboto;
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 35px;
+  }
+  &--back {
+    & .v-btn-content {
+      font: normal normal normal 16px Roboto;
+      font-size: 16px;
+      color: #1D2025;
+      text-transform: uppercase;
+    }
+  }
+  &--checkout {
+    & span {
+      font: normal normal bold 21px/28px Roboto;
+      color: #EFB60F;
+      text-transform: uppercase;
+    }
+  }
+}
